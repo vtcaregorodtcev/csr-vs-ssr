@@ -1,0 +1,14 @@
+{
+  "name": "csr-ssr-streaming",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "parcel build index.html --dist-dir dist --no-autoinstall",
+    "start": "pnpm build && (cd dist && pnpx http-server -c-1)"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {}
+}
